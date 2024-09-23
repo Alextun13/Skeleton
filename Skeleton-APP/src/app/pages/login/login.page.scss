@@ -1,0 +1,33 @@
+// Centrado
+
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column; 
+    height: 100%;           
+    padding: 20px;
+  }
+  
+  ion-item, ion-button {
+    width: 100%;          
+    max-width: 400px;        
+    margin: 10px 0;    
+  }
+  
+  h1, p, h3 {
+    text-align: center;
+    color: grey;     
+  }
+
+  ion-item{
+    padding-top: 50px;
+  }
+
+  // diseño
+
+  ion-content{
+    --background: white;
+  }
+
+  
