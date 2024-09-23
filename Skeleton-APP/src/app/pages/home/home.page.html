@@ -5,9 +5,30 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">home</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <h1>Bienvenido!</h1>
+  <P>Usuario: </P>
+
+  <h5>Informacion adicional</h5>
+
+  <ion-item>
+    <ion-input type="text" [(ngModel)]= "nombre" label="Nombre"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-input type="text" [(ngModel)]= "apellido" label="Apellido"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-select [(ngModel)]="seleccion">
+
+    </ion-select>
+  </ion-item>
+
+  
 </ion-content>
+
+<ion-footer [translucent]="true">
+  <ion-toolbar>
+    <ion-title>APP desarrollada por Alexander</ion-title>
+  </ion-toolbar>
+</ion-footer>
